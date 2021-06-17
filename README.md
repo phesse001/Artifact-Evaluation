@@ -1,5 +1,7 @@
 # Artifact-Evaluation
 A repository containing artifact checklists and papers to experiment with different artifact evaluation methods
+## TODO
+* add deeper, more descriptive criteria
 # Links to Checklists
 Below are links to google sheets templating the cTuning, AAAI, and NeurIPS artifact evaluation checklists:
 * [cTuning](https://docs.google.com/spreadsheets/d/1wEZPmnEjxzoPHyXC8pxvdrPdjtP_ek3rX5gu5sxbkps/edit?usp=sharing)
