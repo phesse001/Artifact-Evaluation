@@ -21,3 +21,12 @@ I used three different checklists for three different papers (minus one for not 
 | Paper | Checklist | Score |
 |-------|-----------|-------|
 | Collective Knowledge Workflow | cTuning | 85/85 (100%) |
+| Collective Knowledge Workflow | AAAI | 60/65 (92%) |
+| Playing Atari with Deep Reinforcement Learning | cTuning | 29/60 (48%) |
+| Playing Atari with Deep Reinforcement Learning | AAAI | 34/55 (62%) |
+| Playing Atari with Deep Reinforcement Learning | NeurIPS | 32/60 (53%) |
+| ImageNet Classification with Deep Convolutional Neural Networks | cTuning | 50/70 (77%) |
+| ImageNet Classification with Deep Convolutional Neural Networks | AAAI | 60/70 (85%) |
+| ImageNet Classification with Deep Convolutional Neural Networks | NeurIPS | 68/80 (85%) |
+
+As you can see, there are similarities of how well a given paper did from checklist to checklist but also some noise. Some of this noise is to be expected just from the different questions and framing of questions across checklists.
