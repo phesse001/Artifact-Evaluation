@@ -18,7 +18,7 @@ I used three different checklists for three different papers (minus one for not 
 | Paper | Checklist | Score |
 |-------|-----------|-------|
 | Collective Knowledge Workflow | cTuning | 85/85 (100%) |
-| Collective Knowledge Workflow | AAAI | 60/65 (92%) |
+| Collective Knowledge Workflow | AAAI | 60/65 (94%) |
 | Playing Atari with Deep Reinforcement Learning | cTuning | 29/60 (48%) |
 | Playing Atari with Deep Reinforcement Learning | AAAI | 34/55 (62%) |
 | Playing Atari with Deep Reinforcement Learning | NeurIPS | 32/60 (53%) |
@@ -26,4 +26,7 @@ I used three different checklists for three different papers (minus one for not 
 | ImageNet Classification with Deep Convolutional Neural Networks | AAAI | 60/70 (85%) |
 | ImageNet Classification with Deep Convolutional Neural Networks | NeurIPS | 68/80 (85%) |
 
-As you can see, there are similarities of how well a given paper did from checklist to checklist but also some noise. Some of this noise is to be expected just from the different questions and framing of questions across checklists.
+As you can see, there are similarities of how well a given paper did from checklist to checklist but also some noise. Some of this noise is to be expected just from the different questions and framing of questions across checklists. Some other noise can be attributed to the specificities of questions from checklist to checklist. For example, the Collective Knowledge Paper getting 94% on the AAAI checklist vs 100% on the cTuning checklist is partially due to the AAAI checklist containing the specific question "If an algorithm depends on randomness, then the method used for setting seeds is described in a way sufficient to allow replication of results" which the cTuning checklist didn't specifically ask. Because the specifications determine the score, the most important thing is to keep specifications consistent on a single checklist from paper to paper based on what you need for reproducibility.
+
+## Final thoughts
+A couple things were clear as I was doing the evaluations. First, authors who use a checklist as a part of their paper-writing process unsurprisingly do well on the checklists. Second, using a reproducible framework (ck or something else) inherently checks a lot of the boxes on a given checklist. This is why the ck paper did so well and the others not as well. The other two papers were quite a bit older (2012 and 2013) and reproducibility initiatives were not as widespread back then. I found that the three checklists contained very similar items, and the content of a checklist is really up to the reviewer on what information they need to reproduce a paper. With this in mind, requiring the use of a checklist seems to be the most important thing, and while I found positives and negatives from each, I don't think there is a 'checklist to rule them all' and that steps to make existing checklists better include more and deeper examples of what satisfies/doesn't satisfy certain criteria, better descriptions of criteria, along with the ability to keep the checklists nuanced from paper to paper.
