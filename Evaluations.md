@@ -1,4 +1,4 @@
-#Evaluations
+# Evaluations
 Below is a list of links to the different checklists I filled out for the 3 papers I selected to evaluate
 - [Collective Knowledge Workflow | cTuning checklist](https://docs.google.com/spreadsheets/d/1i-PWBf3JxUG7NQr3mSIM5Eu9QHX0HSFCLrSbJ1SX-jI/edit?usp=sharing)
 - [Playing Atari with Deep Reinforcement Learning | cTuning checklist](https://docs.google.com/spreadsheets/d/1v2IFWHZ0d3eF6LKRQ4VBFIxvzX6SsMS8V-UE7Wrmgc4/edit?usp=sharing)
